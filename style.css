@@ -3,6 +3,7 @@ body {
     font-size: 10pt;
     background-image: url('https://media.istockphoto.com/photos/modern-brick-wall-3d-rendering-picture-id1140265911?b=1&k=20&m=1140265911&s=170667a&w=0&h=cLoyrHySMr6agb3jd7kjL_KQZwW4c-JdgpCeFu_r81s=');
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     background-repeat: no-repeat;
     color: violet;
@@ -60,4 +61,13 @@ h3.list-group-item {
 
 .list-group-item:nth-child(5):hover {
     color: #e01563;
+}
+
+footer {
+    position: fixed;
+    opacity: 0.7;
+    font-size: 1.3em;
+    bottom: 0;
+    padding: 15px;
+    width: 100vw;
 }
