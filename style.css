@@ -63,6 +63,14 @@ h3.list-group-item {
     color: #e01563;
 }
 
+.list-group-item:nth-child(6):hover {
+    color: #075e54;
+}
+
+.list-group-item:nth-child(7):hover {
+    color: #ea4335;
+}
+
 footer {
     position: fixed;
     opacity: 0.7;
